@@ -196,3 +196,41 @@ h1{
 .coupon-button:hover{
     background-color: #ddd;
 }
+
+.testimonial{
+    background-image: url(images/testimonials-left-dec.png),url(images/testimonials-right-dec.png);;
+    padding: 120px 0px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right bottom;
+}
+.testimonial-heading{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+.testimonial-body{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+.testimonial-review{
+    margin-left: 20px;
+    width: 30%;
+}
+.testimonial-review q{
+    font-style: italic;
+}
+.testimonial-review h5{
+    color: blueviolet;
+    margin-top: -10px;
+}
+.writer{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
