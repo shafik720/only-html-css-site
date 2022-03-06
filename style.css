@@ -85,5 +85,35 @@ h1{
 .services:hover{
     box-shadow: 0 0 10px 10px #ddd;
     border-radius: 5px;
-    
+    transition: box-shadow 0.6s ease-in-out;
+}
+
+.circle-images{
+    margin-top: 10%;
+}
+.circle-images::after{
+    background-image: url(images/our-courses-left-dec.png);
+    width: 291px;
+    height: 231px;
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    left: 50px;
+}
+
+.circle-images::before{
+    background-image: url(images/our-courses-right-dec.png);
+    width: 291px;
+    height: 231px;
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    right: 50px;
+}
+
+.course-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
 }
