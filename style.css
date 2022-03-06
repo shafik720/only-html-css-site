@@ -1,0 +1,40 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 70px;
+}
+
+.grey-text{
+    color:beige;
+    font-size: 1.3em;
+    margin-bottom: -30px;
+    margin-top: 80px;
+}
+.dreams{
+    display: flex;
+    margin-top: 5%;
+    background-image: url(images/banner-left-dec.png);
+    background-repeat: no-repeat;
+    background-position: 0px 200px;
+}
+.welcomes{
+    width: 50%;
+    margin-left: 10%;
+}
+.welcomes img {
+    width: 80%;
+}
+.color-text{
+    color: blueviolet;
+}
+.join-button{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(blueviolet, #DF8EDA);
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
