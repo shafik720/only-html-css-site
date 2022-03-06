@@ -211,6 +211,7 @@ h1{
     background-image: url(images/testimonials-right-dec.png);
     position:absolute;
     content: '';
+    z-index: -1;
     width: 632px;
     height: 352px;
     right: 0px;
@@ -254,4 +255,36 @@ h1{
 .testimonial-review:hover{
     box-shadow: 0 0 10px 10px #ddd;
     border-radius: 10px;
+}
+
+.contact-section{
+    display: flex;
+    margin-top: 20%;
+}
+#contact1{
+    border: 2px solid #ddd;
+    width: 120%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.contact img{
+    width: 100%;
+    border-radius: 20px;
+}
+#contact2{
+    width: 100%;
+}
+#contact2 img{
+    width: 80%;
+    padding: 10px;
+    border: 2px solid  #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px #DF8EDA;
+    margin-left: -70px;
+    margin-top: 20%;
+    position: relative;
+    z-index: 1;
 }
