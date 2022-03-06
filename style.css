@@ -197,11 +197,24 @@ h1{
     background-color: #ddd;
 }
 
-.testimonial{
-    background-image: url(images/testimonials-left-dec.png),url(images/testimonials-right-dec.png);;
-    padding: 120px 0px;
-    background-repeat: no-repeat, no-repeat;
-    background-position: left, right bottom;
+.testimonial:before{
+    position: absolute;
+    content: '';
+    background-image: url(images/testimonials-left-dec.png);
+    width: 593px;
+    height: 352px;
+    margin-top: -100px;
+    left: 0;
+    z-index: -1;
+}
+.testimonial:after{
+    background-image: url(images/testimonials-right-dec.png);
+    position:absolute;
+    content: '';
+    width: 632px;
+    height: 352px;
+    right: 0px;
+    margin-top: -100px;
 }
 .testimonial-heading{
     width: 80%;
@@ -219,6 +232,7 @@ h1{
 .testimonial-review{
     margin-left: 20px;
     width: 30%;
+    padding-top: 30px;
 }
 .testimonial-review q{
     font-style: italic;
@@ -233,4 +247,11 @@ h1{
     width: 80%;
     justify-content: space-between;
     align-items: center;
+}
+.writers{
+    text-align:left;
+}
+.testimonial-review:hover{
+    box-shadow: 0 0 10px 10px #ddd;
+    border-radius: 10px;
 }
