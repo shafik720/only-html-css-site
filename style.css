@@ -62,3 +62,28 @@ h1{
     font-size: 1.3em;
     border-radius: 5px;
 }
+
+.service-section{
+    width: 100%;
+    text-align: center;
+}
+#service-para{
+    text-align: center;
+    font-size: 1.4em;
+    margin: 10% 0%;
+}
+.service {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.services{
+    width: 20%;
+    padding: 2% 3%;
+    margin-left: 5%;
+}
+.services:hover{
+    box-shadow: 0 0 10px 10px #ddd;
+    border-radius: 5px;
+    
+}
