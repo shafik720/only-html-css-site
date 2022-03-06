@@ -117,3 +117,82 @@ h1{
     text-align: center;
     margin-top: 20%;
 }
+.courses{
+    width: 30%;
+    margin: auto;
+}
+
+.services-section{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.service2{
+    width: 25%;
+    margin-left:150px;
+    margin-right: 60px;
+}
+.services2{
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+.services2:hover{
+    box-shadow: 0 0 5px 5px #DF8EDA ;
+    border: 3px solid #DF8EDA;
+    color: #DF8EDA;
+    cursor: pointer;
+}
+.service-three{
+    width: 50%;
+    margin-left: 30px;
+    display: flex;
+    box-shadow: 0 0 5px 5px  #ddd;
+    border-radius: 10px;
+    padding: 40px 40px 40px 0px;
+}
+.service-3 img{
+    border-radius: 15px 0px 0px 15px;
+}
+#course-details{
+    padding-left: 25px;
+}
+#course-details p, h5, a{
+    font-size: 1.3em;
+}
+
+.coupon-section{
+    background-image: url(images/cta-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 180px 0px;
+}
+.coupon{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    color: white;
+}
+#coupons-2{
+    padding-left: 7%;
+}
+#coupons-2 p {
+    font-size: 1.3em;
+}
+.coupon-para{
+    margin-bottom: 15%;
+}
+.coupon-button{
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: white;
+    color: #DF8EDA;
+    border-radius: 5px;
+}
+.coupon-button:hover{
+    background-color: #ddd;
+}
