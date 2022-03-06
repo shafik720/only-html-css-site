@@ -15,9 +15,24 @@ h1{
 .dreams{
     display: flex;
     margin-top: 5%;
+}
+.dreams::after{
     background-image: url(images/banner-left-dec.png);
-    background-repeat: no-repeat;
-    background-position: 0px 200px;
+    position: absolute;
+    width: 214px;
+    height: 429px;
+    content: '';
+    bottom: -50px;
+    z-index: -1;
+}
+#welcome2::after{
+    background-image: url(images/banner-right-dec.png);
+    position: absolute;
+    width:378px;
+    height: 378px;
+    content: '';
+    right: 50px;
+    z-index: -1;
 }
 .welcomes{
     width: 50%;
