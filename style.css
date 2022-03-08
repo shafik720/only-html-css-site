@@ -289,26 +289,32 @@ h1{
     z-index: 1;
 }
 .callme{
-    width: 200px;
-    height: 100px;
     background-color: white;
     border: 2px solid #ddd;
     text-align: center;
-    padding: 20px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 12px 17px;
 }
 .callme2{
-    width: 200px;
-    height: 100px;
     background-color: white;
     border: 2px solid #ddd;
     text-align: center;
-    padding: 20px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 27px;
     margin-left: 20px;
 }
-.callsme{
-    margin-top: -50px;
-    margin-left: 168px;
+.callsme {
+    margin-top: -87px;
+    margin-left: 122px;
     font-weight: 600;
+    display: flex;
+}
+#icons{
+    font-size: 1.5em;
+    color: slategrey;
+    margin-right: 10px;
 }
